@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+    </style>
+</head>
+
+<body>
+    <div>
+        <header class="mt-5">
+            <div class="d-flex justify-content-evenly">
+                <button class="btn-again">Again!</button>
+                <p class="between-text">(Between 1 and 20)</p>
+            </div>
+            <p class="title text-center m-5">Guess My Number</p>
+            <div class="text-center">
+                <button class="number">?</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="row">
+                <div class="left col d-grid justify-content-center">
+                    <input type="number" class="guess">
+                    <button class="button-check">Check!</button>
+                </div>
+                <div class="right col d-grid justify-content-center">
+                    <p class="message">🎉 Start guessing ...</p>
+                    <p class="label-score mt-5">
+                        💯 SCore:
+                        <span class="score">20</span>
+                    </p>
+                    <p class="label-highscore">
+                        🥇 Highscore:
+                        <span class="highscore">0</span>
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
